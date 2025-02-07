@@ -12,6 +12,7 @@ def calculate_cosine_similarity(point, Full_data ,hospital_data, n=3):
 
 
 def get_recommendation_filtered_services(service, lat_lng, op_day, care_s, payment, Full_data, hospital_data):
+
     print(service)
     full_data_services = Full_data[:, :len(service)]
     
